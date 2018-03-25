@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/OceanOS/platform_manifest/raw/oreo/ocean-logo.png" width="130px" height="130px" > 
+<img src="https://github.com/OceanOS/platform_manifest/raw/oreo/ocean-logo.png" width="320px" height="320px" > 
 </p>
 
 OceanOS Project Oreo Source 2018
