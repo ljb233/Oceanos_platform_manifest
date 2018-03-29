@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="build/make" name="android_build" remote="ocean" revision="oreo" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+</project>
+  <project path="android" name="OceanOS/platform_manifest" revision="oreo" remote="github" />
+  <project path="frameworks/base" name="OceanOS/platform_frameworks_base" remote="github" revision="oreo" />
+  <project path="frameworks/native" name="OceanOS/frameworks_native" remote="ocean" />
+  <project path="vendor/ocean" name="OceanOS/platform_vendor_ocean" remote="github" revision="oreo" />
+  <project path="packages/apps/Settings" name="OeanOS/android_packages_apps_Settings" remote="github" revision="oreo" />
+  <project path="packages/apps/SnapdragonCamera2" name="OceanOS/android_packages_apps_SnapdragonCamera2" remote="ocean" revision="oreo" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="ocean" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="ocean" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="ocean" />
+  <project path="external/DUtils" name="external_DUtils" remote="ocean"/>
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="ocean"/>
+  <project path="system/core" name="system_core" remote="ocean" />
+  <project path="lineage-sdk" name="lineage-sdk" remote="ocean" />
+  <project path="packages/apps/Lawnchair" name="OceanOS/packages_apps_Lawnchair" remote="github" revision="oreo" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="ocean" />
+  <project name="android_packages_overlays_OceanOS" path="packages/overlays/OceanOS" remote="ocean" />
+  <project path="device/ocean/sepolicy" name="device_ocean_sepolicy" remote="ocean" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ocean" />
+
+</manifest>
+
