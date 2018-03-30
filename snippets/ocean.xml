@@ -27,6 +27,7 @@
   <project path="packages/overlays/OceanOS" name="packages_overlays_OceanOS" remote="ocean" />
   <project path="device/ocean/sepolicy" name="device_ocean_sepolicy" remote="ocean" />
   <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ocean" />
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="o" />
 
 </manifest>
 
